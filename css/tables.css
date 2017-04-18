@@ -1,0 +1,32 @@
+table {
+  font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+  border-collapse: collapse;
+  color: #686461;
+  width: 50%;
+}
+caption {
+  padding: 10px;
+  color: white;
+  background: #f78d1d;
+  font-size: 18px;
+  text-align: left;
+  font-weight: bold;
+}
+th {
+  border-bottom: 3px solid #B9B29F;
+  padding: 10px;
+  text-align: left;
+}
+td {
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color:black;
+}
+tr:nth-child(odd) {
+  background: white;
+}
+tr:nth-child(even) {
+  background: #E8E6D1;
+}
